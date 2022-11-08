@@ -25,7 +25,7 @@ npm i
 
 ### View the app (Hosted on Netlify):
 
-https://food-verse.netlify.app
+https://react-todo-app-shohan.netlify.app
 
 ### Necessary Links:
 
