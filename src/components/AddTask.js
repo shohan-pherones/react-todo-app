@@ -6,13 +6,16 @@ const AddTask = ({ tasks, setTasks }) => {
 
   // posting data
   const postData = async (text) => {
-    const res = await fetch("http://localhost:8000/tasks", {
-      method: "POST",
-      headers: {
-        "Content-type": "application/json",
-      },
-      body: JSON.stringify({ text }),
-    });
+    const res = await fetch(
+      "https://aluminum-delicate-snowshoe.glitch.me/tasks",
+      {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+        },
+        body: JSON.stringify({ text }),
+      }
+    );
 
     const data = await res.json();
     setTasks([...tasks, data]);

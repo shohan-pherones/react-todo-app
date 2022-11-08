@@ -17,7 +17,9 @@ const App = () => {
   // getting data
   const getData = async () => {
     try {
-      const res = await fetch("http://localhost:8000/tasks");
+      const res = await fetch(
+        "https://aluminum-delicate-snowshoe.glitch.me/tasks"
+      );
       if (!res.ok) throw new Error("Something went wrong!");
       const data = await res.json();
       setTasks(data);
@@ -38,7 +40,7 @@ const App = () => {
   };
 
   const deleteData = async (id) => {
-    await fetch(`http://localhost:8000/tasks/${id}`, {
+    await fetch(`https://aluminum-delicate-snowshoe.glitch.me/tasks/${id}`, {
       method: "DELETE",
       headers: {
         "Content-type": "application/json",
@@ -79,7 +81,7 @@ const App = () => {
   };
 
   const putRequest = async (id, editPersistance) => {
-    await fetch(`http://localhost:8000/tasks/${id}`, {
+    await fetch(`https://aluminum-delicate-snowshoe.glitch.me/tasks/${id}`, {
       method: "PUT",
       headers: {
         "Content-type": "application/json",
