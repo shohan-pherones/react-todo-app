@@ -13,19 +13,6 @@ Our app is very simple and straightforward. We have a clean interface that makes
 2.  User can update an existing task from the list
 3.  Also a task can be deleted by the delete button containing an existing task
 
-### View the app (Hosted on Netlify):
-
-https://food-verse.netlify.app
-
-### Necessary Links:
-
-API Endpoint: https://aluminum-delicate-snowshoe.glitch.me/tasks
-API GitHub: https://github.com/shohan-pherones/react-todo-app-server
-
-### Tools:
-
-React.js, Tailwind CSS, JSON Server
-
 ### How to use this repo?
 
 Download or clone this repo and run the following command in the terminal:
@@ -35,5 +22,18 @@ npm install
 or
 npm i
 ```
+
+### View the app (Hosted on Netlify):
+
+https://food-verse.netlify.app
+
+### Necessary Links:
+
+1. API Endpoint: https://aluminum-delicate-snowshoe.glitch.me/tasks
+2. API GitHub: https://github.com/shohan-pherones/react-todo-app-server
+
+### Tools:
+
+React.js, Tailwind CSS, JSON Server
 
 ### Thanks for visiting this repo, take care!
