@@ -1,4 +1,4 @@
-## React Todo App: A simple todo application
+## React Todo App: A Simple Todo Application
 
 ### What is React Todo App?
 
@@ -9,9 +9,9 @@ Our app is very simple and straightforward. We have a clean interface that makes
 
 ### Features:
 
-1.  User can create tasks in the list
-2.  User can update an existing task from the list
-3.  Also a task can be deleted by the delete button containing an existing task
+1.  All of the CRUD operations has been handled properly as the async actions
+2.  An integrated JSON server holds and serves the data under the hood
+3.  Added tasks also saved into the local storage of the client’s browser
 
 ### How to use this repo?
 
@@ -34,6 +34,6 @@ https://react-todo-app-shohan.netlify.app
 
 ### Tools:
 
-React.js, Tailwind CSS, JSON Server
+React.js, Tailwind CSS
 
 ### Thanks for visiting this repo, take care!
